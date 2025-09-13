@@ -1,0 +1,30 @@
+{
+  "name": "npx-swapnanil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "swapnanil": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapnanil99/npx-swapnanil.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swapnanil99/npx-swapnanil/issues"
+  },
+  "homepage": "https://github.com/swapnanil99/npx-swapnanil#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.7",
+    "open": "^10.2.0",
+    "readline": "^1.3.0"
+  }
+}
