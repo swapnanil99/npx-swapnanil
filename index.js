@@ -3,7 +3,7 @@
 const chalk = require('chalk');         // Chalk v4
 const boxen = require('boxen').default; // Boxen v6 — add .default
 const inquirer = require('inquirer');
-const open = require('open');
+const open = require('open').default;
 const readline = require('readline');
 
 // ----- About Card -----
@@ -42,13 +42,13 @@ async function mainMenu() {
 
   switch(action) {
     case 'Send me an email':
-      open('mailto:swapnanilmaity99@gmail.com');
+      await open('mailto:swapnanilmaity99@gmail.com');
       break;
     case 'Open GitHub':
-      open('https://github.com/swapnanil99');
+      await open('https://github.com/swapnanil99');
       break;
     case 'Open Portfolio':
-      open('https://swapnanil99.github.io/');
+      await open('https://swapnanil99.github.io/');
       break;
     case 'Play Game':
       return gameMenu();
