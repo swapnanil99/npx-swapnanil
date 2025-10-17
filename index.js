@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const chalk = require('chalk');         // Chalk v4
-const boxen = require('boxen').default; // Boxen v6 — add .default
+const boxen = require('boxen').default; 
 const inquirer = require('inquirer');
 const open = require('open').default;
 const readline = require('readline');
