@@ -3,8 +3,6 @@
 A fun, interactive CLI business card built with Node.js!  
 Display my info and play mini-games directly from your terminal.
 
----
-
 ## Features
 
 - Displays my **personal info**:
